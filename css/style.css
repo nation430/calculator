@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: crimson;
+}
+
+.calc-body {
+  border-radius: 25px;
+  background-color: #ecf0f3;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 5rem;
+  position: relative;
+}
+
+.input input {
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+  outline: none;
+  font-size: 30px;
+  max-width: 100%;
+  width: 260px;
+  height: 45px;
+  margin: 40px 0px 40px 15px;
+  border-radius: 20px;
+  border: none;
+}
+button {
+  text-align: center;
+  padding: 10px 17px;
+  color: black;
+  outline: none;
+  border: none;
+  border-radius: 25%;
+  font-size: 30px;
+  margin: 10px;
+  box-shadow: 8px 8px 8px #cbced1, -8px -8px 8px #fff;
+}
